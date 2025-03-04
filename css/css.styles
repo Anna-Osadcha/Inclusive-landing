@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://source.unsplash.com/random/1600x900');
+    background-size: cover;  /* щоб фон покривав весь екран */
+    background-position: center; /* щоб фон був по центру */
+    height: 100vh; /* висота на весь екран */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5); /* напівпрозорий чорний фон */
+    padding: 30px;
+    border-radius: 15px;
+    color: #fff;
+}
