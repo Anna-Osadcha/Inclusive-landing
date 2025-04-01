@@ -1,0 +1,54 @@
+header {
+    background-image: url("../img/bg_hero_section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, .4);
+    
+
+}
+
+.cols {
+    display:flex;
+    justify-content: center;  /* align for main axis */
+    align-items:center; /* align for cross axis */
+    gap: 32px;
+}
+
+/* Temporary for development */
+.col {
+    background-color: beige;
+    min-height: 100px;
+}
+/* End of Temporary for development */
+
+.col.c1 {
+    width: 25%;
+    /* padding-right: 30px; */
+
+}
+
+.col.c2 {
+    width: 25%;
+
+}
+
+.col.c3 {
+    width: 50%;
+
+}
+
+@media screen and(max-width:767px) {
+    .cols {
+        gap: 0
+
+    }
+}
+
+@media screen and(max-width:560px) {
+    .col.c1, 
+    .col.c2,
+    .col.c3 {
+        width: 100%;
+    }
+}

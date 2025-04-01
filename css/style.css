@@ -1,28 +1,37 @@
 /* style.css — Загальні властивості елементів */
 
+/* типографіка */
 html, body {
-    font-family: 'Montserrat', sans-serif;  /* Гарнітура для основного тексту */
+    font-family: 'Manrope', sans-serif;  /* Гарнітура для основного тексту */
     font-size: 16px;        /* Розмір шрифта основного тексту */
-    line-height: 1.4;       /* Міжрядковий інтервал основного тексту в %/100 */
+    line-height: 1.5;       /* Міжрядковий інтервал основного тексту в %/150 */
     letter-spacing: .002em; /* Міжлітерний інтервал основного тексту збільшений на 2/1000 Em */
     scroll-behavior: smooth;/* Плавна прокрутка під час переходу за якорем (ancor) */
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;  /* Гарнітура для заголовків */
+    font-family: 'Manrope', sans-serif;  /* Гарнітура для заголовків */
     font-weight: 400;                       /* Накреслення для заголовків */
-    line-height: 1.2;                       /* Міжрядковий інтервал для заголовків в %/100 */
+    line-height: 1.5;                       /* Міжрядковий інтервал для заголовків в %/100 */
     letter-spacing: 0.005em;                /* Міжлітерний інтервал основного тексту збільшений на 2/1000 Em */
     margin: 0 0 .5em;                       /* Відступ знизу після заголовку */
     text-align: left;                       /* Вирівнювання тексту заголовків */
 }
 
-h1 { font-size: 2rem; }     /* Висота заголовків у відносних величинах */
-h2 { font-size: 1.5rem; }   /* rem - відносний розмір *(body font-size) */
-h3 { font-size: 1.35rem; }
+h1 { font-size: 3rem; }     /* 48px */
+h2 { font-size: 2.5rem; }   /* 40px */
+h3 { font-size: 2rem; }   /* 32px */
+h4 { font-size: 1.5rem; }   /* 24px */
 
 p {
+    font-size: 1rem; /* 16px */
     margin-bottom: .75em;   /* Відступ знизу після абзацу */
+}
+
+.tagline {
+    font-size: 1rem; /* 16px */
+    font-weight: 400;
+    color: var(--txt-color-2);
 }
 
 a {
