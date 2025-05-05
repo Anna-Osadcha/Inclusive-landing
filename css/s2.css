@@ -1,0 +1,49 @@
+#s3 h3 {
+    font-weight: bold;
+    margin: 0;
+    color: var(--txt-color-2);
+
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 12px;
+}
+
+
+/* Блок з текстом і кнопкою */
+.see-all {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--txt-color-2);
+}
+
+/* Кнопка — без дефолтного оформлення */
+.see-all button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* Іконка */
+.see-all img {
+    width: 36px;
+    height: 36px;
+}
+  
+  .section-subtext {
+    font-size: px;
+    line-height: 1.5;
+    color: var(--txt-color-2);
+    margin-bottom: 24px;
+    max-width: 720px;
+  }

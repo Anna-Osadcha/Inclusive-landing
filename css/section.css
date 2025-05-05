@@ -1,0 +1,45 @@
+#s1 {
+    background-color: var(--bg-color-1); /* Фоновий колір */
+}
+
+#s1 .cols {
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    gap: 30px;
+}
+
+.col .txt-box {
+    padding: 30px 30px 0 30px;
+}
+
+.col .txt-box p:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#s1 .cols .col {
+    background-color: var(--bg-color-2); /* Фоновий колір */
+    border-radius: var(--bord-radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 30%;
+    position: relative;
+    overflow: hidden;
+    /* padding-bottom: 100px; */
+}
+
+#s1 .col .icon {
+    position: relative;
+    width: 200px;   /* або менше, залежно від дизайну */
+    height: auto;  /* зберігає пропорції */
+    align-self: flex-end;
+    margin-top: auto;      /*  "виштовхує" іконку вниз у flex-контейнері*/
+    right:-20px;
+    bottom:-20px;
+}
+
+
+/* 🔹 АДАПТИВНІСТЬ 🔹 */
