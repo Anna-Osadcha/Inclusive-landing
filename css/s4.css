@@ -1,0 +1,120 @@
+#s4 {
+    background-color: #E0EAFF;
+    border-radius: 60px;
+    padding: 20px 100px;
+    margin: 40px auto ;
+    max-width: var(--max-width);
+    overflow: visible;
+
+    /* margin-top: -100px; */
+  }
+  
+  .inside2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .inside2-cta {
+    flex: 1 1 320px;
+    max-width: 500px;
+  }
+  
+  .inside2-cta h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .inside2-cta p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .inside2-cta a {
+    color: #2c4de2;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  
+  .inside2-cta button {
+    background-color: #101828;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .inside2-cta button:hover {
+    background-color: #1c1f26;
+  }
+  
+  .inside2-sticker {
+    flex: 1 1 300px;
+    position: relative;
+    padding-bottom: 80px; /* Щоб не обрізалося знизу */
+  }
+  
+  .inside2-sticker .arrow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .sticker2-arrow {
+    width: 50px;
+  }
+  
+  .inside2-sticker p {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .inside2-sticker {
+    flex: 1 1 300px;
+    position: relative;
+    min-height: 250px; /* щоб було куди виходити */
+  }
+  
+  .stickers {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Перший стікер — текстовий */
+  .sticker-item1 {
+    position: absolute;
+    left: 380px;
+    bottom: 0px;
+    transform: rotate(-8deg);
+  }
+  
+  .sticker-img {
+    width: 280px;
+    height: auto;
+  }
+  
+  /* Другий стікер — круглий */
+  .sticker-item2 {
+    position: absolute;
+    right: 85px;
+    bottom: -85px;
+    transform: rotate(15deg);
+  }
+  
+  .sticker-round-img {
+    width: 170px;
+    height: auto;
+    border-radius: 50%;
+  }
