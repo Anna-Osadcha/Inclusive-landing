@@ -1,0 +1,116 @@
+#s5 {
+    padding: 60px 20px;
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #s5 .inside {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  #s5 .inside-info {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  #s5 .inside-info h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  #s5 .inside-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #475467;
+    max-width: 550px;
+    margin-bottom: 16px;
+    
+  }
+  
+  #s5 .inside-info a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  
+  #s5 .inside-form {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  #s5 .inside-form h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  #s5 form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+  }
+  
+  #s5 input,
+  #s5 textarea {
+    flex: 1;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 24px;
+    min-width: 150px;
+    color: #000
+  }
+  
+  #s5 textarea {
+    flex: 1 1 100%;
+    min-height: 245px;
+    resize: none;
+  }
+  
+  #s5 button {
+    background-color: #0c1324;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: background-color 0.3s;
+  }
+  
+  #s5 button:hover {
+    background-color: #1d273e;
+  }
+
+  #s5 .textarea-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  #s5 .textarea-wrapper textarea {
+    width: 100%;
+    padding-right: 60px; /* місце для кнопки */
+  }
+  
+  #s5 .textarea-wrapper button {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    z-index: 2;
+  }
+  
+  
+
+  
+  
+  
+  
