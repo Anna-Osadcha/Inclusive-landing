@@ -5,7 +5,7 @@ nav {
     background-position: bottom;
     position: fixed;
     width: 100%;
-    z-index: 95;
+    z-index: 1000;
 }
 
 nav.topfixed {
